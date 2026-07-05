@@ -1,0 +1,69 @@
+# .project metadata for Kgateway
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kgateway"
+name: "Kgateway"
+description: "An Envoy-powered, Kubernetes-native API Gateway that integrates Kubernetes Gateway API with a control plane for API connectivity in any cloud environment."
+type: "project"
+project_lead: "artberger" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kgateway-contributors"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-03-04T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/319" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kgateway-dev/kgateway"
+
+website: "https://kgateway.dev/"
+
+artwork: "https://landscape.cncf.io/logos/kgateway.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kgateway-dev/kgateway/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kgateway-dev/kgateway"
+
+
+security:
+  policy:
+    path: "https://github.com/kgateway-dev/kgateway/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kgateway-dev/kgateway/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kgateway-dev/kgateway/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kgateway-dev/kgateway/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kgateway-dev/kgateway/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kgateway-dev/kgateway/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "API Gateway"
+
+# CLOMonitor Score: 78/100
+# Documentation: 91 | License: 86 | Best Practices: 68 | Security: 60
