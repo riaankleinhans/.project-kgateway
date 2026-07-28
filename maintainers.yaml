@@ -9,33 +9,33 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - artberger
           - andy-fong
+          - artberger
           - ashleywang1
+          - chandler-solo
           - christian-posta
           - craigbox
           - danehans
-          - chandler-solo
           - davidjumani
           - EItanya
+          - howardjohn
+          - ilackarms
           - ilrudie
           - jbohanon
           - jenshu
-          - howardjohn
           - kristin-kronstain-brown
           - lgadban
           - linsun
           - Nadine2016
           - nfuden
           - npolshakova
-          - puertomontt
           - PetrMc
+          - puertomontt
           - Rachael-Graham
           - sam-heilbron
-          - ilackarms
+          - shashankram
           - sheidkamp
           - Sodman
-          - shashankram
           - stevenctl
           - timflannagan
           - tjons
